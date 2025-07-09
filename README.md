@@ -4,9 +4,9 @@
 
 This is a demo website I am working on in my spare time to practice frontend coding, which I don't get much exposure to in my daily work. This project uses the NextJS framework along with tailwind.
 
- I'm creating this project to serve as a homepage for the Black Jade Mahjong Club, which is a secretive organization in the Azuki world. As such, and because I'm a fan of Azuki's design language, I'm planning on mimicking a lot of the styles and website design from <a href="https://azuki.com" target="_blank">azuki.com</a>.
+I'm creating this project to serve as a homepage for the Black Jade Mahjong Club, which is a secretive organization in the Azuki world. As such, and because I'm a fan of Azuki's design language, I'm planning on mimicking a lot of the styles and website design from <a href="https://azuki.com" target="_blank">azuki.com</a>.
 
- At the same time, since I want this to be a learning experience for myself, I'll be attempting to keep things fresh.
+At the same time, since I want this to be a learning experience for myself, I'll be attempting to keep things fresh.
 
 
 ## Goals and To Do
@@ -33,20 +33,21 @@ This is a demo website I am working on in my spare time to practice frontend cod
 ## Design/Logic
 
 ### Github Action to Fetch Metadata
-    I decided to go with a GitHub action to fetch Elemental metadata because this information is fairly static. The only information I could see changing is the image url, if the team decides to change the url or something, which I doubt will happen. 
+I decided to go with a GitHub action to fetch Elemental metadata because this information is fairly static. The only information I could see changing is the image url, if the team decides to change the url or something, which I doubt will happen. 
 
 ### Server side vs Client side processing of the NFT ownership information
-    I want to make sure owners are up to date and displayed correctly on the Membership page. For this, I had initially considered finding the owner of each relevant BJMC Elemental either client- or server-side, but I thought a better implementation of getting the owners would be to do it via a github action that runs on a cron schedule. There are a few reasons for doing it this way for the time being:
-    
-    - One is that this should make loading in this information a lot quicker than having to get owner information, since the information will always be available, and no processing needs to be done on it.
+I want to make sure owners are up to date and displayed correctly on the Membership page. For this, I had initially considered finding the owner of each relevant BJMC Elemental either client- or server-side, but I thought a better implementation of getting the owners would be to do it via a github action that runs on a cron schedule. There are a few reasons for doing it this way for the time being:
 
-    - Another reason is that owners of these specific Elementals don't change often. Therefore, it would be a bit of a waste to have to process this information server or client side every load, when it's fairly static. TODO: look into cache/chaching
+- One is that this should make loading in this information a lot quicker than having to get owner information, since the information will always be available, and no processing needs to be done on it.
+
+- Another reason is that owners of these specific Elementals don't change often. Therefore, it would be a bit of a waste to have to process this information server or client side every load, when it's fairly static. TODO: look into cache/chaching
 
 ## TODOs:
-
-    Housekeeping:
-    - Build and deploy GHA
-    - Auto delete merged branches
+Elemental Metadata:
+- Add Opensea profile scraping as a fallback when we can't find the X/Twitter Account on the Azuki Collect Profile Page
+Housekeeping:
+- Build and deploy GHA
+- Auto delete merged branches
 
 
 

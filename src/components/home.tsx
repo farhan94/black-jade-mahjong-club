@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 
 /*
 use canvas?
@@ -16,11 +15,20 @@ use canvas?
  edges now. OR you can do an inverse clip so that it only shows on the edges
 
 */
+
+interface ElementalMetadata {
+  id: string;
+  name: string;
+  description?: string;
+  image?: string;
+  // Add other properties as needed
+}
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
-  const [bamboo, setBamboo] = useState<any[]>([]);
-  const [character, setCharacter] = useState<any[]>([]);
-  const [dots, setDots] = useState<any[]>([]);
+  const [bamboo, setBamboo] = useState<ElementalMetadata[]>([]);
+  const [character, setCharacter] = useState<ElementalMetadata[]>([]);
+  const [dots, setDots] = useState<ElementalMetadata[]>([]);
 
   useEffect(() => {
     let isMounted = true;
@@ -69,9 +77,21 @@ export default function Home() {
         <div>
           {/* Underlying contents go here */}
           <h1>Welcome to the Home Page</h1>
-          {/* Example usage: */}
-          <pre>{JSON.stringify(bamboo, null, 2)}</pre>
-          {/* ...other contents... */}
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+            <div>
+              <h2 className="text-xl font-bold mb-2">Bamboo ({bamboo.length})</h2>
+              <pre className="text-xs overflow-auto h-40">{JSON.stringify(bamboo, null, 2)}</pre>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold mb-2">Character ({character.length})</h2>
+              <pre className="text-xs overflow-auto h-40">{JSON.stringify(character, null, 2)}</pre>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold mb-2">Dots ({dots.length})</h2>
+              <pre className="text-xs overflow-auto h-40">{JSON.stringify(dots, null, 2)}</pre>
+            </div>
+          </div>
         </div>
       )}
     </div>

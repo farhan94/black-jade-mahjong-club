@@ -18,30 +18,33 @@ jobs:
       - name: Install axios
         run: npm install axios
 
+      - name: Install ethers
+        run: npm install ethers
+
       - name: Fetch metadata and save as JSON
         run: |
           node .github/scripts/fetch-elementals-metadata.mjs
-
-      - name: Install ethers
-        run: npm install ethers
 
       - name: Add owner info to metadata
         env:
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
         run: node .github/scripts/add-owners-to-elementals.mjs
 
+      - name: Add Twitter profiles to metadata
+        run: node .github/scripts/add-twitter-profiles.mjs
+
       - name: Commit and push metadata
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: fetch and store elementals metadata"
+          commit_message: "chore: fetch and store elementals metadata with owner info and Twitter profiles"
           branch: update/elementals-metadata-${{ github.run_id }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           branch: update/elementals-metadata-${{ github.run_id }}
-          title: "chore: fetch and store elementals metadata"
-          body: "Automated update of elementals metadata and owner info."
+          title: "chore: fetch and store elementals metadata with owner info and Twitter profiles"
+          body: "Automated update of elementals metadata, owner info, and Twitter profiles."
           base: ${{ github.ref_name }}
 
       - name: Auto-merge PR

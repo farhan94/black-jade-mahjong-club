@@ -1,0 +1,52 @@
+name: Fetch and Push Elementals Metadata and Owners
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install axios
+        run: npm install axios
+
+      - name: Fetch metadata and save as JSON
+        run: |
+          node .github/scripts/fetch-elementals-metadata.mjs
+
+      - name: Install ethers
+        run: npm install ethers
+
+      - name: Add owner info to metadata
+        env:
+          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+        run: node .github/scripts/add-owners-to-elementals.mjs
+
+      - name: Commit and push metadata
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: fetch and store elementals metadata"
+          branch: update/elementals-metadata-${{ github.run_id }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update/elementals-metadata-${{ github.run_id }}
+          title: "chore: fetch and store elementals metadata"
+          body: "Automated update of elementals metadata and owner info."
+          base: ${{ github.ref_name }}
+
+      - name: Auto-merge PR
+        uses: pascalgn/automerge-action@v0.16.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          merge_method: squash

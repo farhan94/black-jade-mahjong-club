@@ -18,20 +18,45 @@ use canvas?
 */
 export default function Home() {
   const [loading, setLoading] = useState(true);
+  const [bamboo, setBamboo] = useState<any[]>([]);
+  const [character, setCharacter] = useState<any[]>([]);
+  const [dots, setDots] = useState<any[]>([]);
 
   useEffect(() => {
+    let isMounted = true;
     const minLoadingTime = new Promise<void>((resolve) => {
-      setTimeout(resolve, 5000);
+      setTimeout(resolve, 1000);
     });
 
     const loadData = async () => {
-      // Simulate data loading
-      await new Promise<void>((resolve) => setTimeout(resolve, 2000));
+      // Load metadata JSONs from the public data directory
+      const [bambooRes, characterRes, dotsRes] = await Promise.all([
+        fetch("/data/elementals-metadata/bamboo-bjmc-elementals-metadata.json"),
+        fetch(
+          "/data/elementals-metadata/character-bjmc-elementals-metadata.json"
+        ),
+        fetch("/data/elementals-metadata/dots-bjmc-elementals-metadata.json"),
+      ]);
+      const [bambooData, characterData, dotsData] = await Promise.all([
+        bambooRes.json(),
+        characterRes.json(),
+        dotsRes.json(),
+      ]);
+      // Add owner info to each list
+      if (isMounted) {
+        setBamboo(bambooData);
+        setCharacter(characterData);
+        setDots(dotsData);
+      }
     };
 
     Promise.all([minLoadingTime, loadData()]).then(() => {
-      setLoading(false);
+      if (isMounted) setLoading(false);
     });
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   return (
@@ -44,6 +69,8 @@ export default function Home() {
         <div>
           {/* Underlying contents go here */}
           <h1>Welcome to the Home Page</h1>
+          {/* Example usage: */}
+          <pre>{JSON.stringify(bamboo, null, 2)}</pre>
           {/* ...other contents... */}
         </div>
       )}

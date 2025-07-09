@@ -33,19 +33,16 @@ jobs:
       - name: Add Twitter profiles to metadata
         run: node .github/scripts/add-twitter-profiles.mjs
 
-      - name: Commit and push metadata
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: fetch and store elementals metadata with owner info and Twitter profiles"
-          branch: update/elementals-metadata-${{ github.run_id }}
-
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: fetch and store elementals metadata with owner info and Twitter profiles"
           branch: update/elementals-metadata-${{ github.run_id }}
           title: "chore: fetch and store elementals metadata with owner info and Twitter profiles"
           body: "Automated update of elementals metadata, owner info, and Twitter profiles."
           base: ${{ github.ref_name }}
+          delete-branch: true
 
       - name: Auto-merge PR
         uses: pascalgn/automerge-action@v0.16.3

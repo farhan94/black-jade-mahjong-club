@@ -1,0 +1,384 @@
+[
+  {
+    "tokenId": null,
+    "tileSuit": "dots",
+    "tileNumber": 1,
+    "owner": null,
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 19181,
+    "tileSuit": "dots",
+    "tileNumber": 2,
+    "name": "Elemental #19181",
+    "image": "https://elementals-images.azuki.com/c4e56dff-00d4-4b74-a4f0-6494240a3f20.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Lightning"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Swept Back Spiky - Silver"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Lightning"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Frown"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Lightning Strike"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cool Gray"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/19181",
+    "owner": "0x5C538a82E58C05d66d6B03721cA2ddD68c1Ec956",
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 14668,
+    "tileSuit": "dots",
+    "tileNumber": 3,
+    "name": "Elemental #14668",
+    "image": "https://elementals-images.azuki.com/7779aa9b-9be9-4a6f-a290-09d7fd70bc46.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Dirty Mullet - Green"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Kunai"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Nose Scar"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Guitar - Water"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Butterflies"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/14668",
+    "owner": "0x59EC3e809c2dA447d0F5e7F8c19722FA7d6E3DD5",
+    "ownerTwitter": {
+      "handle": "f10wer",
+      "url": "https://twitter.com/f10wer"
+    }
+  },
+  {
+    "tokenId": null,
+    "tileSuit": "dots",
+    "tileNumber": 4,
+    "owner": null,
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 16221,
+    "tileSuit": "dots",
+    "tileNumber": 5,
+    "name": "Elemental #16221",
+    "image": "https://elementals-images.azuki.com/6fb552cb-602e-474f-a2da-85ca20819c7f.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Messy Bun - Lavender"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Ruby"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Grass"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Sake"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White C"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/16221",
+    "owner": "0x5C538a82E58C05d66d6B03721cA2ddD68c1Ec956",
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 19520,
+    "tileSuit": "dots",
+    "tileNumber": 6,
+    "name": "Elemental #19520",
+    "image": "https://elementals-images.azuki.com/bd437c99-842f-4a3e-b6f6-c2e29a829cfa.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Lightning"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Long Flowy - Teal"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Enticing"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Bolt Shades"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Midnight Blue"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/19520",
+    "owner": "0x19220b7835715dFefA9635296b5da290AF70d490",
+    "ownerTwitter": {
+      "handle": "konger_eth",
+      "url": "https://twitter.com/konger_eth"
+    }
+  },
+  {
+    "tokenId": 1597,
+    "tileSuit": "dots",
+    "tileNumber": 7,
+    "name": "Elemental #1597",
+    "image": "https://elementals-images.azuki.com/324b2cf1-235a-4db9-8cab-70a0fcab6441.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Lightning"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Dirty Mullet - Black"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Armored Headband - Lightning"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Relaxed"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Brass Knuckles"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White A"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/1597",
+    "owner": "0x82B8F9AA3340Dd52F76804d91aE1931392DfAD3b",
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 18209,
+    "tileSuit": "dots",
+    "tileNumber": 8,
+    "name": "Elemental #18209",
+    "image": "https://elementals-images.azuki.com/36d8ca24-3cc0-49d8-9166-97721b2af34b.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Poetic Justice - Silver"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Smirk"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Umbrella"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Rain"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Midnight Blue"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/18209",
+    "owner": "0xCa1EE6AbEaa8D61C9D3E73c94d7bdb9fbc114138",
+    "ownerTwitter": {
+      "handle": "illumanbeing",
+      "url": "https://twitter.com/illumanbeing"
+    }
+  },
+  {
+    "tokenId": 723,
+    "tileSuit": "dots",
+    "tileNumber": 9,
+    "name": "Elemental #723",
+    "image": "https://elementals-images.azuki.com/83c86b54-9420-43cf-9ff0-7c539e7dd8f6.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Lightning"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Middle Part - Black"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Armored Headband - Lightning"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Suspicious"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Meh"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Manifesto"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White D"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/723",
+    "owner": "0xbdfef3f9845E3041Fa19B76d0DEF5545ce2b98D7",
+    "ownerTwitter": {
+      "handle": "0xhex_",
+      "url": "https://twitter.com/0xhex_"
+    }
+  }
+]

@@ -1,0 +1,425 @@
+[
+  {
+    "tokenId": 6217,
+    "tileSuit": "bamboo",
+    "tileNumber": 1,
+    "name": "Elemental #6217",
+    "image": "https://elementals-images.azuki.com/787f20c8-dbd8-48e7-b241-8b973ad16293.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "???"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Dark Shaved"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Doom"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Smile"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Earth Fist"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Growth"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cool Gray"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/6217",
+    "owner": "0xfF4E81C574885b8B97986A53aF47B9991828eFB2",
+    "ownerTwitter": {
+      "handle": "MercaYT95",
+      "url": "https://twitter.com/MercaYT95"
+    }
+  },
+  {
+    "tokenId": 4006,
+    "tileSuit": "bamboo",
+    "tileNumber": 2,
+    "name": "Elemental #4006",
+    "image": "https://elementals-images.azuki.com/da53fcc1-5f09-4932-9697-28455c837a04.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mid-Length Waves - Crimson"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Short Brim Cap"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Honest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Lipstick"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Bamboo Staff"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Butterflies"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Khaki"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/4006",
+    "owner": "0xa156f7E624F698454CdE0b799a2D81642fB76EEA",
+    "ownerTwitter": {
+      "handle": "metaknight_sf",
+      "url": "https://twitter.com/metaknight_sf"
+    }
+  },
+  {
+    "tokenId": 12644,
+    "tileSuit": "bamboo",
+    "tileNumber": 3,
+    "name": "Elemental #12644",
+    "image": "https://elementals-images.azuki.com/9a4d1b35-a5e9-4a68-b911-7df116400895.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "French Braid - Beige"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eager"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Black Lipstick Smile"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Cocktail - Earth"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/12644",
+    "owner": "0x9795A9Baac2f17E7c7F11686Bc6bC2afc3D84612",
+    "ownerTwitter": {
+      "handle": "Riced_Eth",
+      "url": "https://twitter.com/Riced_Eth"
+    }
+  },
+  {
+    "tokenId": 4952,
+    "tileSuit": "bamboo",
+    "tileNumber": 4,
+    "name": "Elemental #4952",
+    "image": "https://elementals-images.azuki.com/f73b1e0d-6739-416c-ae4f-b8424dea82f9.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Clean Short - Dirty Blonde"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Relaxed"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White C"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/4952",
+    "owner": "0xbC1934f548417f79ab10138B57716Fbc7C25c177",
+    "ownerTwitter": {
+      "handle": "HappyBuddha99",
+      "url": "https://twitter.com/HappyBuddha99"
+    }
+  },
+  {
+    "tokenId": 4889,
+    "tileSuit": "bamboo",
+    "tileNumber": 5,
+    "name": "Elemental #4889",
+    "image": "https://elementals-images.azuki.com/59bce46b-ab93-4621-8764-b40b914a94b3.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Short - Black"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Careless"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Sure"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cool Gray"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/4889",
+    "owner": "0x51f2F3276E4F5BCA430f064D3f65Eb59b9398eCE",
+    "ownerTwitter": {
+      "handle": "blvckstar_eth",
+      "url": "https://twitter.com/blvckstar_eth"
+    }
+  },
+  {
+    "tokenId": 8355,
+    "tileSuit": "bamboo",
+    "tileNumber": 6,
+    "name": "Elemental #8355",
+    "image": "https://elementals-images.azuki.com/814dd386-74ed-49e2-a5bd-6b6ee9b8b3c1.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Clean Short - Black"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nostalgic"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Beard"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Stone Shades"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "MMA Gloves"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White D"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/8355",
+    "owner": "0x8FC35d9a1DD28fF85266c3597b1a53d3ce2b5841",
+    "ownerTwitter": {
+      "handle": "yeezygoudou",
+      "url": "https://twitter.com/yeezygoudou"
+    }
+  },
+  {
+    "tokenId": 10709,
+    "tileSuit": "bamboo",
+    "tileNumber": 7,
+    "name": "Elemental #10709",
+    "image": "https://elementals-images.azuki.com/95b80f07-9c08-4537-a144-ee4e158b5e2b.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Long Dreads - Black"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Cat Eyes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Chuckle"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Microphone"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Midnight Blue"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/10709",
+    "owner": "0xa9c859686F6A3cd942d1007a0D0C0710AF4D694E",
+    "ownerTwitter": {
+      "handle": "jarindr",
+      "url": "https://twitter.com/jarindr"
+    }
+  },
+  {
+    "tokenId": 12273,
+    "tileSuit": "bamboo",
+    "tileNumber": 8,
+    "name": "Elemental #12273",
+    "image": "https://elementals-images.azuki.com/ea5462e0-082b-4711-b685-7b7fc14c0d5a.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Middle Part - Silver"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Glowing"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Disappointed"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Katana - Earth"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Khaki"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/12273",
+    "owner": "0xE4ae63c74CBa2263842fB187bBAC793Fe60B2069",
+    "ownerTwitter": {
+      "handle": "coffeeforval",
+      "url": "https://twitter.com/coffeeforval"
+    }
+  },
+  {
+    "tokenId": null,
+    "tileSuit": "bamboo",
+    "tileNumber": 9,
+    "owner": null,
+    "ownerTwitter": null
+  }
+]

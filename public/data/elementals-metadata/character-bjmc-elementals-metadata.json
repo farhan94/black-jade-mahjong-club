@@ -1,0 +1,431 @@
+[
+  {
+    "tokenId": null,
+    "tileSuit": "character",
+    "tileNumber": 1,
+    "owner": null,
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 10152,
+    "tileSuit": "character",
+    "tileNumber": 2,
+    "name": "Elemental #10152",
+    "image": "https://elementals-images.azuki.com/89de8eda-e971-4122-a20f-52418e679ddb.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Long - Violet"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Cat Eyes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Grin"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Boba"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White A"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/10152",
+    "owner": "0x1E1936AdBa1d18bE91694727086e40647DeCF375",
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 17732,
+    "tileSuit": "character",
+    "tileNumber": 3,
+    "name": "Elemental #17732",
+    "image": "https://elementals-images.azuki.com/4de3f60b-5ea2-4bf8-8eb8-cb786986bbb3.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Longer Disheveled - Red"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Valiant"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Relaxed"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Kabuki Facepaint - Fire"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White C"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/17732",
+    "owner": "0x898D41F9930C1e2244499988e5a4738fd05C975F",
+    "ownerTwitter": {
+      "handle": "0xSeraph_",
+      "url": "https://twitter.com/0xSeraph_"
+    }
+  },
+  {
+    "tokenId": 12472,
+    "tileSuit": "character",
+    "tileNumber": 4,
+    "name": "Elemental #12472",
+    "image": "https://elementals-images.azuki.com/c7d6b85f-3cd3-421b-81c7-ff4f8a726c7f.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Longer Disheveled - Beige"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Headpiece - Fire"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frog Eyes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Sure"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Fan - Fire"
+      },
+      {
+        "trait_type": "Special",
+        "value": "Butterflies"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Midnight"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/12472",
+    "owner": "0x1D8c8507C8046A5981f1aAD639E273CB4Eb2517B",
+    "ownerTwitter": {
+      "handle": "suikon_",
+      "url": "https://twitter.com/suikon_"
+    }
+  },
+  {
+    "tokenId": 14767,
+    "tileSuit": "character",
+    "tileNumber": 5,
+    "name": "Elemental #14767",
+    "image": "https://elementals-images.azuki.com/8f26eda1-1d62-4812-a01b-e68783df2783.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Swept Back Spiky - Dirty Blonde"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nostalgic"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bandana"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Guitar - Fire"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Midnight"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/14767",
+    "owner": "0x7eE9C455E595aCe60bBC308f005706c35565A18F",
+    "ownerTwitter": {
+      "handle": "caseymugar",
+      "url": "https://twitter.com/caseymugar"
+    }
+  },
+  {
+    "tokenId": 12870,
+    "tileSuit": "character",
+    "tileNumber": 6,
+    "name": "Elemental #12870",
+    "image": "https://elementals-images.azuki.com/fe595e38-ad49-4d04-9278-65c30c31615d.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Ponytail with Bangs - Silver"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Resolute"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Katana - Fire"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White A"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/12870",
+    "owner": "0x586637CA368ab25C05774e66dd5A57789A629fa0",
+    "ownerTwitter": {
+      "handle": "Riced_Eth",
+      "url": "https://twitter.com/Riced_Eth"
+    }
+  },
+  {
+    "tokenId": 1425,
+    "tileSuit": "character",
+    "tileNumber": 7,
+    "name": "Elemental #1425",
+    "image": "https://elementals-images.azuki.com/97a28a4e-868b-433c-9259-8426767ee0e4.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Simple Braid - Black"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Striking"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Lipstick Smile"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White D"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/1425",
+    "owner": "0x5e850e5A673Dc4C9Ce7790A0b2790937B11c8008",
+    "ownerTwitter": {
+      "handle": "SamuraiSpirit88",
+      "url": "https://twitter.com/SamuraiSpirit88"
+    }
+  },
+  {
+    "tokenId": 8985,
+    "tileSuit": "character",
+    "tileNumber": 8,
+    "name": "Elemental #8985",
+    "image": "https://elementals-images.azuki.com/1d3ebafa-d993-4310-a6ee-919c44885826.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Long Slicked Back - Black"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Beanie with Sunglasses"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Skeptical"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pout"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Guitar - Fire"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White B"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/8985",
+    "owner": "0xf532920bb32122D6475aD4Cc7634dC3a69631902",
+    "ownerTwitter": null
+  },
+  {
+    "tokenId": 14473,
+    "tileSuit": "character",
+    "tileNumber": 9,
+    "name": "Elemental #14473",
+    "image": "https://elementals-images.azuki.com/feca266a-e5e1-4044-90e2-64e7b9898008.png",
+    "attributes": [
+      {
+        "trait_type": "Domain",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Type",
+        "value": "Human"
+      },
+      {
+        "trait_type": "Subtype",
+        "value": "Classic"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mid Bowl - Black"
+      },
+      {
+        "trait_type": "Headgear",
+        "value": "Short Brim Cap"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Disappointed"
+      },
+      {
+        "trait_type": "Face",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "BJMC Jacket"
+      },
+      {
+        "trait_type": "Offhand",
+        "value": "Poker Cards"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Off White D"
+      }
+    ],
+    "external_url": "https://elementals-metadata.azuki.com/elemental/14473",
+    "owner": "0x64F0Abfdad091f2A61fe4E469F9d04C538C79Ea2",
+    "ownerTwitter": {
+      "handle": "V1Zhual",
+      "url": "https://twitter.com/V1Zhual"
+    }
+  }
+]

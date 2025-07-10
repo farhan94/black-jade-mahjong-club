@@ -19,11 +19,9 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install axios
-        run: npm install axios
-
-      - name: Install ethers
-        run: npm install ethers
+      - name: Install dependencies (without saving to package.json)
+        run: |
+          npm install --no-save axios ethers
 
       - name: Fetch metadata and save as JSON
         run: |
@@ -38,6 +36,7 @@ jobs:
         run: node .github/scripts/add-twitter-profiles.mjs
 
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -47,10 +46,12 @@ jobs:
           body: "Automated update of elementals metadata, owner info, and Twitter profiles."
           base: ${{ github.ref_name }}
           delete-branch: true
+          add-paths: |
+            public/data/elementals-metadata/
 
-      - name: Auto-merge PR
-        uses: pascalgn/automerge-action@v0.16.3
+      - name: Enable auto-merge on PR
+        if: steps.cpr.outputs.pull-request-number
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          merge_method: squash
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto

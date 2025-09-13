@@ -1,6 +1,8 @@
 name: Fetch and Push Elementals Metadata and Owners
 
 on:
+  schedule:
+    - cron: "0 15 * * 3" // Wednesday at 15:00 UTC
   workflow_dispatch:
 
 permissions:

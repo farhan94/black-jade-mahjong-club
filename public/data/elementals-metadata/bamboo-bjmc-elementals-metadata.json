@@ -409,11 +409,8 @@
       }
     ],
     "external_url": "https://elementals-metadata.azuki.com/elemental/12273",
-    "owner": "0xE4ae63c74CBa2263842fB187bBAC793Fe60B2069",
-    "ownerTwitter": {
-      "handle": "coffeeforval",
-      "url": "https://twitter.com/coffeeforval"
-    }
+    "owner": "0x3ad066C9e50F55E31eE8B7D092Ef0bccc3BF0c25",
+    "ownerTwitter": null
   },
   {
     "tokenId": null,

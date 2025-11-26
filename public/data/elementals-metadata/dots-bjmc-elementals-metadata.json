@@ -165,8 +165,11 @@
       }
     ],
     "external_url": "https://elementals-metadata.azuki.com/elemental/16221",
-    "owner": "0x5C538a82E58C05d66d6B03721cA2ddD68c1Ec956",
-    "ownerTwitter": null
+    "owner": "0x9b3d4Be9217e91e1e560442Ce16df8F5D118a6Aa",
+    "ownerTwitter": {
+      "handle": "currybujaigo",
+      "url": "https://twitter.com/currybujaigo"
+    }
   },
   {
     "tokenId": 19520,
